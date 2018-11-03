@@ -145,6 +145,7 @@ Partial Class Form1
         Me.Arm_N1_Label = New System.Windows.Forms.Label()
         Me.BackPlate_Check = New System.Windows.Forms.CheckBox()
         Me.BackPlate_Label = New System.Windows.Forms.Label()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Title_Label
@@ -163,7 +164,7 @@ Partial Class Form1
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape19, Me.LineShape18, Me.LineShape17, Me.LineShape16, Me.LineShape15, Me.LineShape14, Me.Gear_N1_LineB, Me.Gear_N1_LineA, Me.BackPlate, Me.Arm_N1, Me.Gear_N1_Gear, Me.Shaft_N1, Me.Gear_M2_LineB, Me.Gear_M2_LineA, Me.Gear_M2_Gear, Me.Shaft_M1, Me.LineShape13, Me.LineShape12, Me.Gear_M1_Gear, Me.Gear_M1_LineB, Me.Gear_M1_LineA, Me.Shaft_D1, Me.Shaft_L1, Me.LineShape11, Me.LineShape10, Me.LineShape9, Me.Shaft_C1, Me.LineShape8, Me.LineShape7, Me.LineShape6, Me.LineShape5, Me.Shaft_B3, Me.Pipe_B1, Me.Gear_L2_LineB, Me.Gear_L2_LineA, Me.Gear_L2_Gear, Me.LineShape4, Me.LineShape3, Me.LineShape2, Me.LineShape1, Me.Gear_L1_LineB, Me.Gear_L1_LineA, Me.Gear_L1_Gear, Me.Gear_D2_LineB, Me.Gear_D2_LineA, Me.Gear_D2_Gear, Me.MainPlate, Me.Gear_D1_LineB, Me.Gear_D1_LineA, Me.Gear_D1_Gear, Me.Gear_C2_LineB, Me.Gear_C2_LineA, Me.Gear_C2_Gear, Me.FrontPlate, Me.Arm_B3, Me.Gear_C1_LineB, Me.Gear_C1_LineA, Me.Gear_C1_Gear, Me.Moon, Me.Gear_B2_LineB, Me.Gear_B2_LineA, Me.Gear_B1_LineB, Me.Gear_B1_LineA, Me.Gear_B2_Gear, Me.Sun, Me.Gear_B1_Gear, Me.Arm_B1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(1168, 636)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(1197, 653)
         Me.ShapeContainer1.TabIndex = 1
         Me.ShapeContainer1.TabStop = False
         '
@@ -205,19 +206,19 @@ Partial Class Form1
         '
         Me.LineShape15.BorderWidth = 2
         Me.LineShape15.Name = "LineShape15"
-        Me.LineShape15.X1 = 1096
-        Me.LineShape15.X2 = 1096
-        Me.LineShape15.Y1 = 172
-        Me.LineShape15.Y2 = 335
+        Me.LineShape15.X1 = 1044
+        Me.LineShape15.X2 = 1044
+        Me.LineShape15.Y1 = 164
+        Me.LineShape15.Y2 = 327
         '
         'LineShape14
         '
         Me.LineShape14.BorderWidth = 2
         Me.LineShape14.Name = "LineShape14"
-        Me.LineShape14.X1 = 1008
-        Me.LineShape14.X2 = 1140
-        Me.LineShape14.Y1 = 190
-        Me.LineShape14.Y2 = 190
+        Me.LineShape14.X1 = 973
+        Me.LineShape14.X2 = 1105
+        Me.LineShape14.Y1 = 191
+        Me.LineShape14.Y2 = 191
         '
         'Gear_N1_LineB
         '
@@ -323,8 +324,8 @@ Partial Class Form1
         '
         Me.LineShape13.BorderWidth = 2
         Me.LineShape13.Name = "LineShape13"
-        Me.LineShape13.X1 = 1008
-        Me.LineShape13.X2 = 1008
+        Me.LineShape13.X1 = 974
+        Me.LineShape13.X2 = 974
         Me.LineShape13.Y1 = 141
         Me.LineShape13.Y2 = 191
         '
@@ -333,7 +334,7 @@ Partial Class Form1
         Me.LineShape12.BorderWidth = 2
         Me.LineShape12.Name = "LineShape12"
         Me.LineShape12.X1 = 860
-        Me.LineShape12.X2 = 1054
+        Me.LineShape12.X2 = 1006
         Me.LineShape12.Y1 = 156
         Me.LineShape12.Y2 = 156
         '
@@ -516,7 +517,7 @@ Partial Class Form1
         '
         Me.LineShape4.Name = "LineShape4"
         Me.LineShape4.X1 = 697
-        Me.LineShape4.X2 = 1183
+        Me.LineShape4.X2 = 1135
         Me.LineShape4.Y1 = 162
         Me.LineShape4.Y2 = 162
         '
@@ -532,7 +533,7 @@ Partial Class Form1
         '
         Me.LineShape2.Name = "LineShape2"
         Me.LineShape2.X1 = 797
-        Me.LineShape2.X2 = 1184
+        Me.LineShape2.X2 = 1135
         Me.LineShape2.Y1 = 89
         Me.LineShape2.Y2 = 89
         '
@@ -1152,7 +1153,7 @@ Partial Class Form1
         '
         'Gear_M1_Text
         '
-        Me.Gear_M1_Text.Location = New System.Drawing.Point(1062, 138)
+        Me.Gear_M1_Text.Location = New System.Drawing.Point(1030, 139)
         Me.Gear_M1_Text.Name = "Gear_M1_Text"
         Me.Gear_M1_Text.Size = New System.Drawing.Size(42, 20)
         Me.Gear_M1_Text.TabIndex = 44
@@ -1162,7 +1163,7 @@ Partial Class Form1
         'Gear_M1_Check
         '
         Me.Gear_M1_Check.AutoSize = True
-        Me.Gear_M1_Check.Location = New System.Drawing.Point(990, 141)
+        Me.Gear_M1_Check.Location = New System.Drawing.Point(955, 141)
         Me.Gear_M1_Check.Name = "Gear_M1_Check"
         Me.Gear_M1_Check.Size = New System.Drawing.Size(15, 14)
         Me.Gear_M1_Check.TabIndex = 43
@@ -1171,7 +1172,7 @@ Partial Class Form1
         'Gear_M1_Label
         '
         Me.Gear_M1_Label.AutoSize = True
-        Me.Gear_M1_Label.Location = New System.Drawing.Point(1010, 142)
+        Me.Gear_M1_Label.Location = New System.Drawing.Point(976, 141)
         Me.Gear_M1_Label.Name = "Gear_M1_Label"
         Me.Gear_M1_Label.Size = New System.Drawing.Size(48, 13)
         Me.Gear_M1_Label.TabIndex = 42
@@ -1180,7 +1181,7 @@ Partial Class Form1
         'Gear_M2_Check
         '
         Me.Gear_M2_Check.AutoSize = True
-        Me.Gear_M2_Check.Location = New System.Drawing.Point(990, 172)
+        Me.Gear_M2_Check.Location = New System.Drawing.Point(955, 168)
         Me.Gear_M2_Check.Name = "Gear_M2_Check"
         Me.Gear_M2_Check.Size = New System.Drawing.Size(15, 14)
         Me.Gear_M2_Check.TabIndex = 46
@@ -1189,7 +1190,7 @@ Partial Class Form1
         'Gear_M2_Label
         '
         Me.Gear_M2_Label.AutoSize = True
-        Me.Gear_M2_Label.Location = New System.Drawing.Point(1010, 173)
+        Me.Gear_M2_Label.Location = New System.Drawing.Point(976, 169)
         Me.Gear_M2_Label.Name = "Gear_M2_Label"
         Me.Gear_M2_Label.Size = New System.Drawing.Size(48, 13)
         Me.Gear_M2_Label.TabIndex = 45
@@ -1197,7 +1198,7 @@ Partial Class Form1
         '
         'Gear_N1_Text
         '
-        Me.Gear_N1_Text.Location = New System.Drawing.Point(1150, 169)
+        Me.Gear_N1_Text.Location = New System.Drawing.Point(1094, 165)
         Me.Gear_N1_Text.Name = "Gear_N1_Text"
         Me.Gear_N1_Text.Size = New System.Drawing.Size(42, 20)
         Me.Gear_N1_Text.TabIndex = 49
@@ -1207,7 +1208,7 @@ Partial Class Form1
         'Gear_N1_Check
         '
         Me.Gear_N1_Check.AutoSize = True
-        Me.Gear_N1_Check.Location = New System.Drawing.Point(1078, 172)
+        Me.Gear_N1_Check.Location = New System.Drawing.Point(1026, 169)
         Me.Gear_N1_Check.Name = "Gear_N1_Check"
         Me.Gear_N1_Check.Size = New System.Drawing.Size(15, 14)
         Me.Gear_N1_Check.TabIndex = 48
@@ -1216,7 +1217,7 @@ Partial Class Form1
         'Gear_N1_Label
         '
         Me.Gear_N1_Label.AutoSize = True
-        Me.Gear_N1_Label.Location = New System.Drawing.Point(1098, 173)
+        Me.Gear_N1_Label.Location = New System.Drawing.Point(1047, 168)
         Me.Gear_N1_Label.Name = "Gear_N1_Label"
         Me.Gear_N1_Label.Size = New System.Drawing.Size(47, 13)
         Me.Gear_N1_Label.TabIndex = 47
@@ -1225,7 +1226,7 @@ Partial Class Form1
         'Arm_N1_Check
         '
         Me.Arm_N1_Check.AutoSize = True
-        Me.Arm_N1_Check.Location = New System.Drawing.Point(1079, 322)
+        Me.Arm_N1_Check.Location = New System.Drawing.Point(1026, 322)
         Me.Arm_N1_Check.Name = "Arm_N1_Check"
         Me.Arm_N1_Check.Size = New System.Drawing.Size(15, 14)
         Me.Arm_N1_Check.TabIndex = 51
@@ -1234,7 +1235,7 @@ Partial Class Form1
         'Arm_N1_Label
         '
         Me.Arm_N1_Label.AutoSize = True
-        Me.Arm_N1_Label.Location = New System.Drawing.Point(1098, 323)
+        Me.Arm_N1_Label.Location = New System.Drawing.Point(1047, 323)
         Me.Arm_N1_Label.Name = "Arm_N1_Label"
         Me.Arm_N1_Label.Size = New System.Drawing.Size(66, 13)
         Me.Arm_N1_Label.TabIndex = 50
@@ -1258,11 +1259,21 @@ Partial Class Form1
         Me.BackPlate_Label.TabIndex = 52
         Me.BackPlate_Label.Text = "Back Plate"
         '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(1094, 165)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(42, 20)
+        Me.TextBox9.TabIndex = 49
+        Me.TextBox9.Text = "0"
+        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1168, 636)
+        Me.ClientSize = New System.Drawing.Size(1197, 653)
+        Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.BackPlate_Check)
         Me.Controls.Add(Me.BackPlate_Label)
         Me.Controls.Add(Me.Arm_N1_Check)
@@ -1443,5 +1454,5 @@ Partial Class Form1
     Friend WithEvents Arm_N1_Label As System.Windows.Forms.Label
     Friend WithEvents BackPlate_Check As System.Windows.Forms.CheckBox
     Friend WithEvents BackPlate_Label As System.Windows.Forms.Label
-
+    Friend WithEvents TextBox9 As TextBox
 End Class
