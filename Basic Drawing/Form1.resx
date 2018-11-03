@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="LineShape19.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>807, 317, 386, 0</value>
+  </metadata>
+  <metadata name="LineShape19.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>807, 317</value>
+  </metadata>
+  <metadata name="LineShape19.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>386, 0</value>
+  </metadata>
+  <metadata name="LineShape18.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>405, 316, 302, 1</value>
+  </metadata>
+  <metadata name="LineShape18.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>405, 316</value>
+  </metadata>
+  <metadata name="LineShape18.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>302, 1</value>
+  </metadata>
+  <metadata name="LineShape17.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>723, 37, 0, 163</value>
+  </metadata>
+  <metadata name="LineShape17.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>723, 37</value>
+  </metadata>
+  <metadata name="LineShape17.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 163</value>
+  </metadata>
+  <metadata name="LineShape16.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>728, 65, 0, 72</value>
+  </metadata>
+  <metadata name="LineShape16.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>728, 65</value>
+  </metadata>
+  <metadata name="LineShape16.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 72</value>
+  </metadata>
+  <metadata name="LineShape15.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1096, 172, 0, 163</value>
+  </metadata>
+  <metadata name="LineShape15.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1096, 172</value>
+  </metadata>
+  <metadata name="LineShape15.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 163</value>
+  </metadata>
+  <metadata name="LineShape14.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1008, 190, 132, 0</value>
+  </metadata>
+  <metadata name="LineShape14.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1008, 190</value>
+  </metadata>
+  <metadata name="LineShape14.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 0</value>
+  </metadata>
+  <metadata name="Gear_N1_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>638, 487, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_N1_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>638, 487</value>
+  </metadata>
+  <metadata name="Gear_N1_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_N1_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>638, 483, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_N1_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>638, 483</value>
+  </metadata>
+  <metadata name="Gear_N1_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Arm_N1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>180, 73, 0, 145</value>
+  </metadata>
+  <metadata name="Arm_N1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>180, 73</value>
+  </metadata>
+  <metadata name="Arm_N1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 145</value>
+  </metadata>
+  <metadata name="Gear_M2_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 478, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_M2_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 478</value>
+  </metadata>
+  <metadata name="Gear_M2_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_M2_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 473, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_M2_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 473</value>
+  </metadata>
+  <metadata name="Gear_M2_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="LineShape13.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1008, 141, 0, 50</value>
+  </metadata>
+  <metadata name="LineShape13.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1008, 141</value>
+  </metadata>
+  <metadata name="LineShape13.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 50</value>
+  </metadata>
+  <metadata name="LineShape12.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>860, 156, 194, 0</value>
+  </metadata>
+  <metadata name="LineShape12.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>860, 156</value>
+  </metadata>
+  <metadata name="LineShape12.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>194, 0</value>
+  </metadata>
+  <metadata name="Gear_M1_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 468, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_M1_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 468</value>
+  </metadata>
+  <metadata name="Gear_M1_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_M1_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 463, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_M1_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 463</value>
+  </metadata>
+  <metadata name="Gear_M1_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="LineShape11.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>727, 138, 178, 0</value>
+  </metadata>
+  <metadata name="LineShape11.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>727, 138</value>
+  </metadata>
+  <metadata name="LineShape11.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>178, 0</value>
+  </metadata>
+  <metadata name="LineShape10.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>414, 156, 197, 0</value>
+  </metadata>
+  <metadata name="LineShape10.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>414, 156</value>
+  </metadata>
+  <metadata name="LineShape10.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>197, 0</value>
+  </metadata>
+  <metadata name="LineShape9.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>566, 138, 153, 0</value>
+  </metadata>
+  <metadata name="LineShape9.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>566, 138</value>
+  </metadata>
+  <metadata name="LineShape9.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 0</value>
+  </metadata>
+  <metadata name="LineShape8.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>861, 121, 0, 35</value>
+  </metadata>
+  <metadata name="LineShape8.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>861, 121</value>
+  </metadata>
+  <metadata name="LineShape8.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 35</value>
+  </metadata>
+  <metadata name="LineShape7.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>414, 139, 0, 50</value>
+  </metadata>
+  <metadata name="LineShape7.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>414, 139</value>
+  </metadata>
+  <metadata name="LineShape7.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 50</value>
+  </metadata>
+  <metadata name="LineShape6.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>567, 121, 0, 35</value>
+  </metadata>
+  <metadata name="LineShape6.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>567, 121</value>
+  </metadata>
+  <metadata name="LineShape6.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 35</value>
+  </metadata>
+  <metadata name="LineShape5.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>718, 65, 0, 72</value>
+  </metadata>
+  <metadata name="LineShape5.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>718, 65</value>
+  </metadata>
+  <metadata name="LineShape5.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 72</value>
+  </metadata>
+  <metadata name="Gear_L2_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 458, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_L2_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 458</value>
+  </metadata>
+  <metadata name="Gear_L2_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_L2_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 453, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_L2_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 453</value>
+  </metadata>
+  <metadata name="Gear_L2_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="LineShape4.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>697, 162, 486, 0</value>
+  </metadata>
+  <metadata name="LineShape4.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>697, 162</value>
+  </metadata>
+  <metadata name="LineShape4.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>486, 0</value>
+  </metadata>
+  <metadata name="LineShape3.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>393, 163, 222, 0</value>
+  </metadata>
+  <metadata name="LineShape3.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>393, 163</value>
+  </metadata>
+  <metadata name="LineShape3.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>222, 0</value>
+  </metadata>
+  <metadata name="LineShape2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>797, 89, 387, 0</value>
+  </metadata>
+  <metadata name="LineShape2.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>797, 89</value>
+  </metadata>
+  <metadata name="LineShape2.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>387, 0</value>
+  </metadata>
+  <metadata name="LineShape1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>395, 87, 301, 0</value>
+  </metadata>
+  <metadata name="LineShape1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>395, 87</value>
+  </metadata>
+  <metadata name="LineShape1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>301, 0</value>
+  </metadata>
+  <metadata name="Gear_L1_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 447, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_L1_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 447</value>
+  </metadata>
+  <metadata name="Gear_L1_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_L1_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 442, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_L1_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>639, 442</value>
+  </metadata>
+  <metadata name="Gear_L1_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_D2_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 545, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_D2_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 545</value>
+  </metadata>
+  <metadata name="Gear_D2_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_D2_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 540, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_D2_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 540</value>
+  </metadata>
+  <metadata name="Gear_D2_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_D1_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 535, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_D1_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 535</value>
+  </metadata>
+  <metadata name="Gear_D1_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_D1_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 530, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_D1_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 530</value>
+  </metadata>
+  <metadata name="Gear_D1_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_C2_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 525, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_C2_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 525</value>
+  </metadata>
+  <metadata name="Gear_C2_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_C2_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 520, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_C2_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 520</value>
+  </metadata>
+  <metadata name="Gear_C2_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FrontPlate.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        TkSuQmCC
+</value>
+  </data>
+  <metadata name="Arm_B3.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>507, 437, 0, 150</value>
+  </metadata>
+  <metadata name="Arm_B3.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>507, 437</value>
+  </metadata>
+  <metadata name="Arm_B3.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 150</value>
+  </metadata>
+  <metadata name="Gear_C1_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 515, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_C1_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 515</value>
+  </metadata>
+  <metadata name="Gear_C1_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_C1_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 510, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_C1_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 510</value>
+  </metadata>
+  <metadata name="Gear_C1_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_B2_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 505, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_B2_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 505</value>
+  </metadata>
+  <metadata name="Gear_B2_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_B2_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 500, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_B2_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 500</value>
+  </metadata>
+  <metadata name="Gear_B2_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_B1_LineB.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 495, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_B1_LineB.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 495</value>
+  </metadata>
+  <metadata name="Gear_B1_LineB.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Gear_B1_LineA.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 490, 50, 0</value>
+  </metadata>
+  <metadata name="Gear_B1_LineA.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 490</value>
+  </metadata>
+  <metadata name="Gear_B1_LineA.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>50, 0</value>
+  </metadata>
+  <metadata name="Arm_B1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>494, 437, 0, 150</value>
+  </metadata>
+  <metadata name="Arm_B1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>494, 437</value>
+  </metadata>
+  <metadata name="Arm_B1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 150</value>
+  </metadata>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>44</value>
+  </metadata>
+</root>
