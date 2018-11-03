@@ -171,18 +171,18 @@ Partial Class Form1
         'LineShape19
         '
         Me.LineShape19.Name = "LineShape19"
-        Me.LineShape19.X1 = 807
-        Me.LineShape19.X2 = 1193
-        Me.LineShape19.Y1 = 317
-        Me.LineShape19.Y2 = 317
+        Me.LineShape19.X1 = 808
+        Me.LineShape19.X2 = 1194
+        Me.LineShape19.Y1 = 302
+        Me.LineShape19.Y2 = 302
         '
         'LineShape18
         '
         Me.LineShape18.Name = "LineShape18"
-        Me.LineShape18.X1 = 405
-        Me.LineShape18.X2 = 707
-        Me.LineShape18.Y1 = 316
-        Me.LineShape18.Y2 = 317
+        Me.LineShape18.X1 = 406
+        Me.LineShape18.X2 = 708
+        Me.LineShape18.Y1 = 300
+        Me.LineShape18.Y2 = 301
         '
         'LineShape17
         '
@@ -206,10 +206,10 @@ Partial Class Form1
         '
         Me.LineShape15.BorderWidth = 2
         Me.LineShape15.Name = "LineShape15"
-        Me.LineShape15.X1 = 1044
-        Me.LineShape15.X2 = 1044
-        Me.LineShape15.Y1 = 164
-        Me.LineShape15.Y2 = 327
+        Me.LineShape15.X1 = 1045
+        Me.LineShape15.X2 = 1045
+        Me.LineShape15.Y1 = 170
+        Me.LineShape15.Y2 = 333
         '
         'LineShape14
         '
@@ -1244,7 +1244,7 @@ Partial Class Form1
         'BackPlate_Check
         '
         Me.BackPlate_Check.AutoSize = True
-        Me.BackPlate_Check.Location = New System.Drawing.Point(723, 312)
+        Me.BackPlate_Check.Location = New System.Drawing.Point(714, 296)
         Me.BackPlate_Check.Name = "BackPlate_Check"
         Me.BackPlate_Check.Size = New System.Drawing.Size(15, 14)
         Me.BackPlate_Check.TabIndex = 53
@@ -1253,7 +1253,7 @@ Partial Class Form1
         'BackPlate_Label
         '
         Me.BackPlate_Label.AutoSize = True
-        Me.BackPlate_Label.Location = New System.Drawing.Point(741, 312)
+        Me.BackPlate_Label.Location = New System.Drawing.Point(732, 299)
         Me.BackPlate_Label.Name = "BackPlate_Label"
         Me.BackPlate_Label.Size = New System.Drawing.Size(59, 13)
         Me.BackPlate_Label.TabIndex = 52
